@@ -12,6 +12,7 @@ Campos na tabela `LIVRO`:
 
 * `CHAVE` - `INTEGER PRIMARY KEY NOT NULL AUTOINCREMENT`
 * `TITULO` - `TEXT NOT NULL`
+* `isbn` - `TEXT UNIQUE NOT NULL`
 * `ANO_PUBLICACAO` - `INTEGER NOT NULL`
 * `EDITORA` - `TEXT NOT NULL`
 * `AUTORIA` - `TEXT NOT NULL` - Isso normalmente é o nome do autor, mas pode haver mais do que um autor ou o autor ser uma entidade. Mesmo se houverem vários autores.
@@ -149,15 +150,17 @@ Ele deve ter as seguintes funções:
 
 A página com as funções do banco de dados deve estar num arquivo `operacoes.php`.
 
-* Uma função para listar todos os livros / veículos / quartos / pessoas.
-* Uma função para inserir os dados do livro / veículo / quarto / pessoa.
-* Uma função para, a partir da respectiva chave, alterar os dados do livro / veículo / quarto / pessoa.
-* Uma função para, a partir da respectiva chave, excluir os dados do livro / veículo / quarto / pessoa.
-* Uma função para, a partir da respectiva chave, ler os dados de um livro / veículo / quarto / pessoa.
+* Uma função para listar todos os dados da tabela principal.
+* Uma função para inserir os dados da tabela principal.
+* Uma função para, a partir da respectiva chave, alterar os dados da tabela principal.
+* Uma função para, a partir da respectiva chave, excluir os dados da tabela principal.
+* Uma função para, a partir da respectiva chave, ler os dados da tabela principal.
 
 A implementação correta de cada uma destas vale 6% da nota, sendo que 1% de cada é a correta participação da função na transação.
 
-No caso do sistema de quartos, a função de inserção e de alteração é a mesma. Use o comando `REPLACE` do SQLite. Neste caso, essa funcionalidade passa a valer 14% da nota.
+No caso onde a chave primária não for `AUTOINCREMENT`, a função de inserção e de alteração é a mesma. Use o comando `REPLACE` do SQLite. Neste caso, essa funcionalidade passa a valer 14% da nota.
+
+No caso onde a tabela principal tenha um campo `UNIQUE`, uma função de pesquisa será necessária, ela valerá 4% da nota e as outras duas funções de pesquisa 4% cada.
 
 Outros 4% são atribuídos para a função que realiza a abertura correta da conexão. Este deve estar num arquivo seperado `conectar.php` se você julgar melhor.
 
