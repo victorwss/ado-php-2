@@ -207,3 +207,4 @@ Não. Pelas seguintes razões:
 * Para o professor desenvolver a correção automática seria tão complicado que corrigir um por um manualmente acaba sendo mais fácil e mais rápido.
 * JavaScript não tem acesso direto ao banco de dados, e embora isso não impossibilite a correção automática, deixa ela bem mais complicada.
 * Não consegui pensar em uma forma de fazer isso sem que a resposta para todos os problemas do enunciado estivesse de alguma forma presente dentro do teste.
+* Eu até tentei fazer. Depois de umas 2 horas cheguei a conclusão de que não há forma viável de fazer isso.
