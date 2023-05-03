@@ -4,130 +4,20 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 
 # Etapas
 
-## 1. Escolha uma das tabelas abaixo para desenvolver o CRUD:
+## 1. Escolha um dos sistemas abaixo para desenvolver o CRUD:
 
-### a. Tabelas `LIVRO` num sistema de biblioteca.
+* [Biblioteca](BIBLIOTECA.md)
+* [Transportadora](TRANSPORTADORA.md)
+* [Hotel](HOTEL.md)
+* [Paquera](PAQUERA.md)
+* [Imobiliária](IMOBILIARIA.md)
+* [Karaokê](KARAOKE.md)
+* [Pizzaria](PIZZARIA.md)
+* [Farmácia](FARMACIA.md)
 
-Campos na tabela `LIVRO`:
+Dois grupos não podem escolher o mesmo sistema.
 
-* `CHAVE` - `INTEGER PRIMARY KEY NOT NULL AUTOINCREMENT`
-* `TITULO` - `TEXT NOT NULL`
-* `isbn` - `TEXT UNIQUE NOT NULL`
-* `ANO_PUBLICACAO` - `INTEGER NOT NULL`
-* `EDITORA` - `TEXT NOT NULL`
-* `AUTORIA` - `TEXT NOT NULL` - Isso normalmente é o nome do autor, mas pode haver mais do que um autor ou o autor ser uma entidade. Mesmo se houverem vários autores.
-* `EDICAO` - `INTEGER NOT NULL`
-* `PAGINAS` - `INTEGER NOT NULL`
-* `LARGURA_MM` - `INTEGER NOT NULL` - O valor da largura deve estar em milímetros.
-* `ALTURA_MM` - `INTEGER NOT NULL` - O valor da altura deve estar em milímetros.
-
-Há ainda as seguintes restrições a serem modeladas com `CHECK`:
-
-* Os campos `EDICAO`, `PAGINAS`, `LARGURA_MM` e `ALTURA_MM` devem ser números maiores que zero.
-* O campo `ANO_PUBLICACAO` deve ser maior ou igual a 1500.
-* Os campos texto devem ser limitados em até 1000 caracteres e não podem estar em branco.
-
-### b. Tabela `VEICULO` num sistema de uma transportadora.
-
-Campos na tabela `VEICULO`:
-
-* `CHAVE` - `INTEGER PRIMARY NOT NULL AUTOINCREMENT`
-* `MARCA` - `TEXT NOT NULL`
-* `MODELO` - `TEXT NOT NULL`
-* `ANO` - `INTEGER NOT NULL`
-* `PLACA` - `TEXT UNIQUE NOT NULL`
-* `COR` - `TEXT NOT NULL`
-* `TIPO` - `TEXT NOT NULL`
-
-Há uma tabela adicional `TIPO_VEICULO` com apenas um campo:
-
-* `TIPO` - `TEXT PRIMARY KEY NOT NULL`
-
-Insira os valores `Motocicleta`, `Carro`, `Caminhão`, `Furgão`, `Caminhonete` nesta tabela.
-
-Há ainda as seguintes restrições a serem modeladas com `CHECK`:
-
-* O campo `ANO` deve ser maior ou igual a 1900.
-
-E essa restrição de chave estrangeira:
-
-* O campo `TIPO` da tabela `VEICULO` é chave estrangeira para o campo `TIPO` da tabela `TIPO_VEICULO`.
-
-### c. Tabela `QUARTO` num sistema de hotelaria.
-
-Campos na tabela `QUARTO`:
-
-* `NUMERO` - `INTEGER PRIMARY NOT NULL` - Não tem `AUTOINCREMENT` neste.
-* `CAMAS_SOLTEIRO` - `INTEGER NOT NULL`
-* `CAMAS_CASAL` - `INTEGER NOT NULL`
-* `AREA_M2` - `INTEGER NOT NULL` - O valor deve estar em metros quadrados.
-* `RESERVADO` - `INTEGER NOT NULL`
-* `VALOR_DIARIA` - `INTEGER NOT NULL` - O valor é expresso em centavos. Para mostrar na tela depois, divida por 100.
-
-Há ainda as seguintes restrições a serem modeladas com `CHECK`:
-
-* Os campos `NUMERO`, `AREA_MM2` e `VALOR_DIARIA` devem ser números maiores que zero.
-* Os campos `CAMAS_SOLTEIRO` e `CAMAS_CASAL` não podem ser negativos.
-* A soma dos campos `CAMAS_SOLTEIRO` e `CAMAS_CASAL` deve ser maior que zero.
-* O campo `RESERVADO` só admite os valores 0 ou 1.
-
-### d. Tabela `PESSOA` num sistema de paquera online.
-
-* `CHAVE` - `INTEGER PRIMARY NOT NULL AUTOINCREMENT`
-* `LOGIN` - `TEXT UNIQUE NOT NULL`
-* `DT_NASCIMENTO` - `REAL NOT NULL`
-* `URL_FOTO` - `TEXT` (pode ser NULL)
-* `INTERESSE_HOMENS` - `INTEGER NOT NULL`
-* `INTERESSE_MULHERES` - `INTEGER NOT NULL`
-* `SEXO` - `TEXT NOT NULL`
-
-Há ainda as seguintes restrições a serem modeladas com `CHECK`:
-
-* Os campos `INTERESSE_HOMENS` e `INTERESSE_MULHERES` só admitem os valores 0 ou 1.
-* O campo `SEXO` só admite os valores 'M' ou 'F'.
-* O campo `DT_NASCIMENTO` só admite datas válidas. Dê uma olhada [aqui](https://www.sqlitetutorial.net/sqlite-date/) em como lidar com datas no SQLite.
-* O campo `URL_FOTO`, caso não seja NULL, deve ter no mínimo 10 caratecters.
-
-Dê uma olhada [aqui](https://www.sqlitetutorial.net/sqlite-date/) em como lidar com datas no SQLite.
-
-### e. Tabela `IMOVEL` num sistema de imobiliária:
-
-* `chave` - 
-* area_construida_m2,
-* area_total_m2, quartos, banheiros, numero_piso, logradouro, bairro, cep, numero, complemento, cidade, estado, preco_venda, mensalidade_aluguel.
-
-### f. Tabela `medicamento` num sistema de farmácia.
-
-* `chave` -
-* nome_comum, nome_substancia, tarja (preta ou vermelha)
-* preco
-* tipo (pílula, comprimido, líquido bebível, injetável, pomada, pastilha, inalável, bombinha)
-* qtd_por_caixa
-* unidade_medida (g, mg, mcg, ml)
-* fabricante
-
-### g. Tabela `sabor_pizza`, numa pizzaria.
-
-* `chave`
-* `nome`
-* `ingredientes`
-* `preco`
-* `dt_inclusao`
-* `dt_alteracao`
-* `preco_sem_borda`
-* `preco_borda_recheada`
-* `doce`
-
-### h. Tabela `musica`, num sistema de karaokê.
-
-* `chave`
-* `titulo`
-* `compositores`
-* `cantores_banda`
-* `ano_lancamento`
-* `versao`
-* `com_restricoes`
-* `estilo`
+Os grupos devem ter de 1 a 4 alunos.
 
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
