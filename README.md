@@ -48,7 +48,7 @@ A página com as funções do banco de dados deve estar num arquivo `operacoes.p
 
 A implementação correta de cada uma destas vale 6% da nota, sendo que 1% de cada é a correta participação da função na transação.
 
-No caso onde a chave primária não for `AUTOINCREMENT`, a função de inserção e de alteração é a mesma. Use o comando `REPLACE` do SQLite. Neste caso, essa funcionalidade passa a valer 14% da nota.
+No caso onde a chave primária não for `AUTOINCREMENT`, a função de inserção e de alteração é a mesma. Use o comando `REPLACE` do SQLite. Neste caso, essa funcionalidade passa a valer 12% da nota.
 
 No caso onde a tabela principal tenha um campo `UNIQUE`, uma função de pesquisa será necessária, ela valerá 4% da nota e as outras duas funções de pesquisa 4% cada.
 
