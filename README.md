@@ -58,7 +58,7 @@ Vulnerabilidade de injeção de SQL dá uma penalidade -2% em cada um desses ite
 
 No total, isso soma 34% da nota.
 
-### c. Listagem de todos os livros / veículos / quartos / pessoa.
+### c. Listagem de todos os elementos da tabela principal.
 
 A página de listagem deve estar num arquivo `listar.php`.
 
@@ -82,9 +82,9 @@ A página de inserção e alteração devem estar no mesmo arquivo `cadastrar.ph
 
 Se o acesso for por GET e não houver chave na URL, trata-se de uma inserção. Se houver chave na URL é uma alteração.
 
-No caso dos livros / veículos e pessoas, Se o acesso for por POST, realize o `INSERT` no banco de dados se a chave não estiver presente ou o `UPDATE` se estiver presente.
+Nos casos onde a chave primária é `AUTOINCREMENT`, se o acesso for por POST, realize o `INSERT` no banco de dados se a chave não estiver presente ou o `UPDATE` se estiver presente.
 
-No caso dos quartos, realize sempre um comando `REPLACE` (que é a forma abriviada de `INSERT OR REPLACE`), que combina a ideia do `INSERT` e do `UPDATE` num comando só.
+Nos casos onde a chave primária não é `AUTOINCREMENT`, realize sempre um comando `REPLACE` (que é a forma abriviada de `INSERT OR REPLACE`), que combina a ideia do `INSERT` e do `UPDATE` num comando só.
 
 A página deve conter um formulário para inserir todos os dados, campo a campo.
 
