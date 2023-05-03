@@ -59,7 +59,7 @@ Campos na tabela `QUARTO`:
 * `NUMERO` - `INTEGER PRIMARY NOT NULL` - Não tem `AUTOINCREMENT` neste.
 * `CAMAS_SOLTEIRO` - `INTEGER NOT NULL`
 * `CAMAS_CASAL` - `INTEGER NOT NULL`
-* `AREA_MM2` - `INTEGER NOT NULL` - O valor deve estar em metros quadrados.
+* `AREA_M2` - `INTEGER NOT NULL` - O valor deve estar em metros quadrados.
 * `RESERVADO` - `INTEGER NOT NULL`
 * `VALOR_DIARIA` - `INTEGER NOT NULL` - O valor é expresso em centavos. Para mostrar na tela depois, divida por 100.
 
@@ -88,6 +88,22 @@ Há ainda as seguintes restrições a serem modeladas com `CHECK`:
 * O campo `URL_FOTO`, caso não seja NULL, deve ter no mínimo 10 caratecters.
 
 Dê uma olhada [aqui](https://www.sqlitetutorial.net/sqlite-date/) em como lidar com datas no SQLite.
+
+### e. Tabela `IMOVEL` num sistema de imobiliária:
+
+* `chave` - 
+* area_construida_m2,
+* area_total_m2, quartos, banheiros, numero_piso, logradouro, bairro, cep, numero, complemento, cidade, estado, preco_venda, mensalidade_aluguel.
+
+### f. Tabela `medicamento` num sistema de farmácia.
+
+* `chave` -
+* nome_comum, nome_substancia, tarja (preta ou vermelha)
+* preco
+* tipo (pílula, comprimido, líquido bebível, injetável, pomada, pastilha, inalável, bombinha)
+* qtd_por_caixa
+* unidade_medida (g, mg, mcg, ml)
+* fabricante
 
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
@@ -154,7 +170,11 @@ No caso dos livros / veículos e pessoas, Se o acesso for por POST, realize o `I
 
 No caso dos quartos, realize sempre um comando `REPLACE` (que é a forma abriviada de `INSERT OR REPLACE`), que combina a ideia do `INSERT` e do `UPDATE` num comando só.
 
-A página deve conter um formulário para inserir todos os dados, campo a campo. Campos `AUTOINCREMENT` não devem estar presentes na inserção e não devem ser editáveis na alteração.
+A página deve conter um formulário para inserir todos os dados, campo a campo.
+
+Campos `AUTOINCREMENT` não devem estar presentes na inserção e não devem ser editáveis na alteração.
+
+Campos com comboboxes, selects, checkbox e radio buttons devem ser aplicados onde for pertinente.
 
 O formulário deve fazer o envio via POST.
 
