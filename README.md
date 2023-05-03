@@ -202,8 +202,8 @@ Isso vale 5% da nota distribuídos assim:
 
 Não. Pelas seguintes razões:
 
-* Fazer correção automática disso tudo é bem difícil e o professor iria levar um tempão.
-* Poucas coisas no mundo real de desenvolvimento têm correção automática.
+* Fazer correção automática disso tudo é bem difícil e o professor iria levar um tempão para criar os scripts para fazer isso.
+* Poucas coisas no mundo real de desenvolvimento têm correção automática e vocês tem que estar preparados para isso.
 * Para o professor desenvolver a correção automática seria tão complicado que corrigir um por um manualmente acaba sendo mais fácil e mais rápido.
 * JavaScript não tem acesso direto ao banco de dados, e embora isso não impossibilite a correção automática, deixa ela bem mais complicada.
 * Não consegui pensar em uma forma de fazer isso sem que a resposta para todos os problemas do enunciado estivesse de alguma forma presente dentro do teste.
