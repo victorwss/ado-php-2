@@ -105,6 +105,18 @@ Dê uma olhada [aqui](https://www.sqlitetutorial.net/sqlite-date/) em como lidar
 * unidade_medida (g, mg, mcg, ml)
 * fabricante
 
+### g. Tabela `sabor_pizza`, numa pizzaria.
+
+* `chave`
+* `nome`
+* `ingredientes`
+* `preco`
+* `dt_inclusao`
+* `dt_alteracao`
+* `preco_sem_borda`
+* `preco_borda_recheada`
+* `doce`
+
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
 ### a. Banco de dados.
