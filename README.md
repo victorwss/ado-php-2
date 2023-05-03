@@ -84,7 +84,7 @@ Se o acesso for por GET e não houver chave na URL, trata-se de uma inserção. 
 
 Nos casos onde a chave primária é `AUTOINCREMENT`, se o acesso for por POST, realize o `INSERT` no banco de dados se a chave não estiver presente ou o `UPDATE` se estiver presente.
 
-Nos casos onde a chave primária não é `AUTOINCREMENT`, realize sempre um comando `REPLACE` (que é a forma abriviada de `INSERT OR REPLACE`), que combina a ideia do `INSERT` e do `UPDATE` num comando só.
+Nos casos onde a chave primária não é `AUTOINCREMENT`, realize sempre um comando `REPLACE` (que é a forma abreviada de `INSERT OR REPLACE`), que combina a ideia do `INSERT` e do `UPDATE` num comando só.
 
 A página deve conter um formulário para inserir todos os dados, campo a campo.
 
