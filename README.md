@@ -94,12 +94,12 @@ Campos com comboboxes, selects, checkbox e radio buttons devem ser aplicados ond
 
 O formulário deve fazer o envio via POST.
 
-Antes de tentar realizar a inserção, certifique-se (no lado do PHP) que todos os dados inseridos estão corretos de acordo com as regras definidas para cada um.
-Se não estiverem, devolva o mesmo formulário com uma mensagem de erro e mantenha os dados informados preenchidos tal como foram preenchidos.
-
-Caso trate-se de uma alteração, coloque um botão para exclusão, que faz POST numa URL diferente efetuando a exclusão e redirecionando para a página de listagem, após a confirmação do usuário.
+Antes de tentar realizar a inserção ou alteração, certifique-se (no lado do PHP) que todos os dados inseridos estão corretos de acordo com as regras definidas para cada um.
+Se não estiverem, não realize a operação no banco de dados e ao invés disso, devolva o mesmo formulário com uma mensagem de erro e mantenha os dados informados preenchidos tal como o usuário os deixou.
 
 Caso a inclusão ou alteração sejam bem sucedidas, redirecione à página de listagem.
+
+Caso trate-se de uma alteração, coloque também um botão para exclusão, que faz POST numa URL diferente efetuando a exclusão e redirecionando para a página de listagem, após a confirmação do usuário.
 
 Essa parte tem um peso de 28% da nota. Sendo:
 * 10% pela correta validação de todos os campos no PHP.
@@ -107,7 +107,8 @@ Essa parte tem um peso de 28% da nota. Sendo:
 * 4% pela correta montagem do formulário na alteração.
 * 2% pelo correto gerenciamento de transações. (2% = tudo certo, 1% = parcial, 0% = nada ou não funciona).
 * 2% por garantir que os GETs e POSTs funcionem como esperado, além de separar a inserção e a alteração onde devem ser separados.
-* 2% por chamar a função de inserção e alteração corretamente conforme o caso.
+* 1% por chamar a função de inserção corretamente onde for o caso.
+* 1% por chamar a função de alteração corretamente onde for o caso.
 * 1% por mostrar o botão de exclusão e o formulário correspondente corretamente apenas na página de alteração.
 * 1% para a ausência de erros de validação de HTML.
 * 1% pela confirmação do usuário na exclusão.
@@ -125,7 +126,7 @@ Isso corresponde a 5% da nota. Sendo:
 
 ### f. Entrega
 
-Coloque o nome de todos os integrantes num arquivo `README.MD` e coloque também as observações que achar pertinente para a correção do projeto.
+Coloque o nome de todos os integrantes num arquivo `README.MD` no GitHub e coloque também as observações que achar pertinente para a correção do projeto.
 
 Convide o professor para o seu projeto no GitHub.
 
