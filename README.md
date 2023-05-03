@@ -117,6 +117,17 @@ Dê uma olhada [aqui](https://www.sqlitetutorial.net/sqlite-date/) em como lidar
 * `preco_borda_recheada`
 * `doce`
 
+### h. Tabela `musica`, num sistema de karaokê.
+
+* `chave`
+* `titulo`
+* `compositores`
+* `cantores_banda`
+* `ano_lancamento`
+* `versao`
+* `com_restricoes`
+* `estilo`
+
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
 ### a. Banco de dados.
