@@ -208,3 +208,4 @@ Não. Pelas seguintes razões:
 * JavaScript não tem acesso direto ao banco de dados, e embora isso não impossibilite a correção automática, deixa ela bem mais complicada.
 * Não consegui pensar em uma forma de fazer isso sem que a resposta para todos os problemas do enunciado estivesse de alguma forma presente dentro do teste.
 * Eu até tentei fazer. Depois de umas 2 horas cheguei a conclusão de que não há forma viável de fazer isso.
+* O ADO 1 que era algo muito mais simples do que isso já tinham testes supercomplicados. Imagine o que seria o teste disto.
