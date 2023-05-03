@@ -38,7 +38,7 @@ No total, isso soma 18% da nota.
 
 Ele deve ter as seguintes funções:
 
-A página com as funções do banco de dados deve estar num arquivo `operacoes.php`.
+A página com as funções do banco de dados deve estar num arquivo `operacoes.php`. Os arquivos `abrir_transacao.php` e `fechar_transacao.php` também devem estar presentes.
 
 * Uma função para listar todos os dados da tabela principal.
 * Uma função para inserir os dados da tabela principal.
@@ -133,7 +133,7 @@ Convide o professor para o seu projeto no GitHub.
 Isso vale 5% da nota distribuídos assim:
 
 * 2% pelo `README.MD` com o nome dos alunos.
-* 3% pela presença de todos os arquivos `bd.sql`, `conectar.php`, `operacoes.php`, `listar.php`, `cadastrar.php` e `excluir.php` e nada mais além do que eles.
+* 3% pela presença de todos os arquivos `bd.sql`, `conectar.php`, `operacoes.php`, `listar.php`, `cadastrar.php`, `excluir.php`, `abrir_transacao.php` e `fechar_transacao.php` e nada mais além do que eles.
 
 # Tem correção automática?
 
