@@ -7,7 +7,7 @@ Campos na tabela `livro`:
 * `isbn` - `TEXT UNIQUE NOT NULL`
 * `ano_publicacao` - `INTEGER NOT NULL`
 * `editora` - `TEXT NOT NULL`
-* `autoria` - `TEXT NOT NULL` - Isso normalmente é o nome do autor, mas pode haver mais do que um autor ou o autor ser uma entidade. Mesmo se houverem vários autores.
+* `autoria` - `TEXT NOT NULL` - Isso normalmente é o nome do autor, mas pode haver mais do que um autor ou o autor ser uma entidade.
 * `edicao` - `INTEGER NOT NULL`
 * `paginas` - `INTEGER NOT NULL`
 * `largura_mm` - `INTEGER NOT NULL` - O valor da largura deve estar em milímetros.
