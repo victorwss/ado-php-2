@@ -12,7 +12,7 @@ Campos na tabela `veiculo`:
 
 Há uma tabela adicional `tipo_veiculo` com apenas um campo:
 
-* `tipo` - `TEXT PRIMARY KEY NOT NULL`
+* `tipo` - `TEXT NOT NULL PRIMARY KEY`
 
 Insira os valores `Motocicleta`, `Carro`, `Caminhão`, `Furgão`, `Caminhonete` e `Ônibus` nesta tabela.
 
