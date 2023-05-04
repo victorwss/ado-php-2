@@ -21,6 +21,9 @@ Os grupos devem ter de 1 a 4 alunos.
 
 O ADO 3 será continuação disto com mais tabelas.
 
+Exemplo de como fica o ADO concluído:
+* [Flores](https://github.com/victorwss/exemplos-php-js/tree/main/flores2)
+
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
 ### a. Banco de dados.
