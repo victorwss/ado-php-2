@@ -19,6 +19,8 @@ Dois grupos não podem escolher o mesmo sistema.
 
 Os grupos devem ter de 1 a 4 alunos.
 
+O ADO 3 será continuação disto com mais tabelas.
+
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
 ### a. Banco de dados.
