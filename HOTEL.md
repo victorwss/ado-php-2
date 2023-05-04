@@ -2,7 +2,7 @@
 
 Campos na tabela `quarto`:
 
-* `numero` - `INTEGER PRIMARY NOT NULL` - Não tem `AUTOINCREMENT` neste.
+* `numero` - `INTEGER NOT NULL PRIMARY KEY` - Não tem `AUTOINCREMENT` neste.
 * `camas_solteiro` - `INTEGER NOT NULL`
 * `camas_casal` - `INTEGER NOT NULL`
 * `area_m2` - `INTEGER NOT NULL` - O valor deve estar em metros quadrados.
