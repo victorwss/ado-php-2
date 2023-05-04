@@ -15,7 +15,7 @@ Há uma tabela adicional `estilo_musica` com apenas um campo:
 
 * `nome` - `TEXT NOT NULL PRIMARY KEY`
 
-Insira os valores `sertanejo`, `axé`, `rock`, `mpb`, `romântica`, `marchinha`, `country`, `pop`, `forró`, `gospel`, `rap`, `reggae`, `soul`, `hip hop`, `infantil`, `clássica`, `folclórico`, `pagode` e `techno`.
+Insira os valores `sertanejo`, `axé`, `rock`, `mpb`, `romântica`, `marchinha`, `country`, `pop`, `forró`, `gospel`, `jazz`, `rap`, `reggae`, `soul`, `hip hop`, `infantil`, `clássica`, `folclórico`, `pagode` e `techno`.
 
 Não insira o valor `funk`, porque esse tipo de lixo não pode ser classificado como música. Além disso, se o sistema aceitasse tocar esse tipo de porcaria, certamente iria estragar as caixas de som.
 
