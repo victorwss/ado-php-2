@@ -15,6 +15,6 @@ Há ainda as seguintes restrições a serem modeladas com `CHECK`:
 * Os campos `interesse_homens` e `interesse_mulheres` só admitem os valores 0 ou 1.
 * O campo `sexo` só admite os valores 'M' ou 'F'.
 * O campo `dt_nascimento` só admite datas válidas.
-* O campo `url_foto`, caso não seja `NULL`, deve ter no mínimo 10 caratecters.
+* O campo `url_foto`, caso não seja `NULL`, deve ter no mínimo 10 caratecters e no máximo 1000.
 
 Dê uma olhada [aqui](https://www.sqlitetutorial.net/sqlite-date/) em como lidar com datas no SQLite.
