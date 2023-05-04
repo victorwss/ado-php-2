@@ -8,12 +8,12 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 
 * [Biblioteca](BIBLIOTECA.md)
 * [Transportadora](TRANSPORTADORA.md)
-* [Hotel](HOTEL.md)
+* [Hotel](HOTEL.md) - Elvis , Anthony, Carlos
 * [Paquera](PAQUERA.md)
-* [Imobiliária](IMOBILIARIA.md)
+* [Imobiliária](IMOBILIARIA.md) - Cristian, Claudio
 * [Karaokê](KARAOKE.md)
 * [Pizzaria](PIZZARIA.md) - Alícia, Jayne, Kamille, Marina
-* [Farmácia](FARMACIA.md)
+* [Farmácia](FARMACIA.md) - Uthiele, Raul, Leonel, Thiago Lima 
 
 Dois grupos não podem escolher o mesmo sistema.
 
