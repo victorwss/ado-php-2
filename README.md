@@ -12,7 +12,7 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 * [Paquera](PAQUERA.md)
 * [Imobiliária](IMOBILIARIA.md)
 * [Karaokê](KARAOKE.md)
-* [Pizzaria](PIZZARIA.md)
+* [Pizzaria](PIZZARIA.md) - Alícia, Jayne, Kamille, Marina
 * [Farmácia](FARMACIA.md)
 
 Dois grupos não podem escolher o mesmo sistema.
