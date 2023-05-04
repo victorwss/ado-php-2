@@ -9,7 +9,7 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 * [Biblioteca](BIBLIOTECA.md)
 * [Transportadora](TRANSPORTADORA.md)
 * [Hotel](HOTEL.md) - Elvis , Anthony, Carlos
-* [Paquera](PAQUERA.md)
+* [Paquera](PAQUERA.md) -Lucas Cristiano, Thiago Dias, Bruno
 * [Imobiliária](IMOBILIARIA.md) - Cristian, Claudio
 * [Karaokê](KARAOKE.md)
 * [Pizzaria](PIZZARIA.md) - Alícia, Jayne, Kamille, Marina
