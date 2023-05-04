@@ -7,7 +7,7 @@ Campos da tabela `musica`:
 * `compositores` - `TEXT NOT NULL`
 * `cantores_banda` - `TEXT NOT NULL`
 * `ano_lancamento` - `INTEGER NOT NULL`
-* `versao` - `TEXT` (pode ser `NULL`)
+* `versao` - `TEXT` (pode ser `NULL`) - Pode ser `acústico`, `ao vivo`, `oficial`, enfim, algo que sirva para diferenciar quando houverem múltiplas versões da música. Na maioria dos casos, fica como `NULL`.
 * `com_restricoes` - `INTEGER NOT NULL` - Indica se a letra da música pode ser imprópria para alguns tipos de audiência.
 * `estilo` - `TEXT NOT NULL`
 
