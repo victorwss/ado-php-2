@@ -2,7 +2,7 @@
 
 Campos na tabela `veiculo`:
 
-* `chave` - `INTEGER PRIMARY NOT NULL AUTOINCREMENT`
+* `chave` - `INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT`
 * `marca` - `TEXT NOT NULL`
 * `modelo` - `TEXT NOT NULL`
 * `ano` - `INTEGER NOT NULL`
