@@ -27,7 +27,7 @@ Exemplo de como fica o ADO concluído:
 
 ## 2. Desenvolva as seguintes telas para o seu pequeno sistema:
 
-### a. Banco de dados.
+### a. Banco de dados
 
 Crie o banco de dados conforme descrito pela alternativa que você descreveu e salve o script de criação de banco de dados num arquivo `bd.sql`.
 
@@ -40,7 +40,7 @@ A nota será dada da seguinte forma, julgada pelo conteúdo do arquivo `bd.sql`:
 
 No total, isso soma 18% da nota.
 
-### b. Crie um arquivo PHP que seja responsável pelas operações no banco de dados.
+### b. Crie um arquivo PHP que seja responsável pelas operações no banco de dados
 
 Ele deve ter as seguintes funções:
 
@@ -64,7 +64,7 @@ Vulnerabilidade de injeção de SQL dá uma penalidade -2% em cada um desses ite
 
 No total, isso soma 34% da nota.
 
-### c. Listagem de todos os elementos da tabela principal.
+### c. Listagem de todos os elementos da tabela principal
 
 A página de listagem deve estar num arquivo `listar.php`.
 
@@ -82,7 +82,7 @@ Essa parte tem um peso de 10% da nota. Sendo:
 * 1% para a ausência de erros de validação de HTML.
 * 1% por garantir que a página só responde a GETs e nunca a POSTs.
 
-### d. Páginas de inserção e de alteração.
+### d. Páginas de inserção e de alteração
 
 A página de inserção e alteração devem estar no mesmo arquivo `cadastrar.php`.
 
@@ -120,7 +120,7 @@ Essa parte tem um peso de 28% da nota. Sendo:
 * 1% pela confirmação do usuário na exclusão.
 * 1% por redirecionar para a tela de listagem após confirmada a inclusão ou alteração.
 
-### e. Arquivo PHP de exclusão.
+### e. Arquivo PHP de exclusão
 
 Esse arquivo deve se chamar `excluir.php` e deve responder a POSTs realizados a partir do botão de exclusão na página de alteração.
 
