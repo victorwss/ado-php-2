@@ -4,7 +4,7 @@ Campos da tabela `pessoa`:
 
 * `chave` - `INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT`
 * `login` - `TEXT UNIQUE NOT NULL`
-* `dt_nascimento` - `REAL NOT NULL`
+* `dt_nascimento` - `REAL NOT NULL` - Mas isso daqui é uma data. O SQLite armazena datas como `REAL`.
 * `url_foto` - `TEXT` (pode ser NULL)
 * `interesse_homens` - `INTEGER NOT NULL`
 * `interesse_mulheres` - `INTEGER NOT NULL`
