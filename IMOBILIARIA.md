@@ -1,4 +1,4 @@
-# Sistema de paquera
+# Sistema de imobiliária
 
 Campos da tabela `imovel`:
 
