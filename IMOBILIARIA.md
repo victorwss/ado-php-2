@@ -14,12 +14,6 @@ Campos da tabela `imovel`:
 * `situacao` - `TEXT NOT NULL`
 * `tipo` - `TEXT NOT NULL`
 
-Há ainda as seguintes restrições a serem modeladas com `CHECK`:
-
-* Nenhum campo numérico pode ter valor negativo.
-* O campo `area_construida_m2` não pode ser maior que `area_total_m2`.
-* O campo `logradouro` deve ter no mínimo 10 caracteres e no máximo 1000 caracteres.
-
 Há uma outra tabela adicional `situacao_imovel` com apenas um campo:
 
 * `situacao` - `TEXT PRIMARY KEY NOT NULL`
@@ -31,6 +25,12 @@ E há uma segunda tabela adicional `tipo_imovel` com apenas um campo:
 * `tipo_imovel` - `TEXT PRIMARY KEY NOT NULL`
 
 Insira os valores `casa`, `sobrado`, `loja`, `apartamento`, `prédio`, `terreno` e `escritório` nesta tabela.
+
+Há ainda as seguintes restrições a serem modeladas com `CHECK`:
+
+* Nenhum campo numérico pode ter valor negativo.
+* O campo `area_construida_m2` não pode ser maior que `area_total_m2`.
+* O campo `logradouro` deve ter no mínimo 10 caracteres e no máximo 1000 caracteres.
 
 E essas restrições de chave estrangeira:
 
