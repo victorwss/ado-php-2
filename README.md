@@ -6,7 +6,7 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 
 ## 1. Escolha um dos sistemas abaixo para desenvolver o CRUD:
 
-* [Biblioteca](BIBLIOTECA.md)
+* [Biblioteca](BIBLIOTECA.md) - Pedro, Felipe
 * [Transportadora](TRANSPORTADORA.md)
 * [Hotel](HOTEL.md) - Elvis , Anthony, Carlos
 * [Paquera](PAQUERA.md) -Lucas Cristiano, Thiago Dias, Bruno
