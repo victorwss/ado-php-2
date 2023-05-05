@@ -7,18 +7,20 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 ## 1. Escolha um dos sistemas abaixo para desenvolver o CRUD:
 
 * [Biblioteca](BIBLIOTECA.md) - Pedro, Felipe
-* [Transportadora](TRANSPORTADORA.md)
+* [Transportadora](TRANSPORTADORA.md) - Luis Felipe, Matheus Lisboa, Abílio, Wendell, Igor
 * [Hotel](HOTEL.md) - Elvis, Anthony, Carlos
 * [Paquera](PAQUERA.md) - Lucas Cristiano, Thiago Dias, Bruno
 * [Imobiliária](IMOBILIARIA.md) - Cristian, Claudio
-* [Karaokê](KARAOKE.md)
+* [Karaokê](KARAOKE.md) - Giovanna, Giovanna, Thais
 * [Pizzaria](PIZZARIA.md) - Alícia, Jayne, Kamille, Marina
-* [Farmácia](FARMACIA.md) - Uthiele, Raul, Leonel, Thiago Lima 
+* [Farmácia](FARMACIA.md) - Uthiele, Raul, Leonel, Thiago Lima
+* [Petshop](PETSHOP.md) -
+* [Estacionamento](ESTACIONAMENTO.md) -
 * Se você não gostou de nenhum, o professor pode bolar mais alguns.
 
 Dois grupos não podem escolher o mesmo sistema.
 
-Os grupos devem ter de 1 a 4 alunos.
+Os grupos devem ter de 1 a 5 alunos.
 
 O ADO 3 será continuação disto com mais tabelas.
 
