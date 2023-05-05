@@ -15,7 +15,7 @@ Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fác
 * [Pizzaria](PIZZARIA.md) - Alícia, Jayne, Kamille, Marina
 * [Farmácia](FARMACIA.md) - Uthiele, Raul, Leonel, Thiago Lima
 * [Petshop](PETSHOP.md) -
-* [Estacionamento](ESTACIONAMENTO.md) -
+* [Estacionamento](ESTACIONAMENTO.md) - Lucas Noé, Luan, Gabriel Grau, Grabriel Freitas, Matheus Ferrari, Guilherme Eirale
 * Se você não gostou de nenhum, o professor pode bolar mais alguns.
 
 Dois grupos não podem escolher o mesmo sistema.
