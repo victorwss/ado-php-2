@@ -2,27 +2,9 @@
 
 Desenvolva um CRUD utilizando o SQLite como banco de dados (assim fica mais fácil de testar).
 
-# Etapas
 
-## 1. Escolha um dos sistemas abaixo para desenvolver o CRUD:
-
-* [Biblioteca](BIBLIOTECA.md) - Pedro, Felipe
-* [Transportadora](TRANSPORTADORA.md) - Luis Felipe, Matheus Lisboa, Abílio, Wendell, Igor
-* [Hotel](HOTEL.md) - Elvis, Anthony, Carlos
-* [Paquera](PAQUERA.md) - Lucas Cristiano, Thiago Dias, Bruno
-* [Imobiliária](IMOBILIARIA.md) - Cristian, Claudio
-* [Karaokê](KARAOKE.md) - Giovanna, Giovanna, Thais
-* [Pizzaria](PIZZARIA.md) - Alícia, Jayne, Kamille, Marina
 * [Farmácia](FARMACIA.md) - Uthiele, Raul, Leonel, Thiago Lima
 * [Petshop](PETSHOP.md) -
-* [Estacionamento](ESTACIONAMENTO.md) - Lucas Noé, Luan, Gabriel Grau, Grabriel Freitas, Matheus Ferrari, Guilherme Eirale
-* Se você não gostou de nenhum, o professor pode bolar mais alguns.
-
-Dois grupos não podem escolher o mesmo sistema.
-
-Os grupos devem ter de 1 a 5 alunos.
-
-O ADO 3 será continuação disto com mais tabelas.
 
 Exemplo de como fica o ADO concluído:
 * [Flores](https://github.com/victorwss/exemplos-php-js/tree/main/flores2)
@@ -143,14 +125,4 @@ Isso vale 5% da nota distribuídos assim:
 * 2% pelo `README.MD` com o nome dos alunos.
 * 3% pela presença de todos os arquivos `bd.sql`, `conectar.php`, `operacoes.php`, `listar.php`, `cadastrar.php`, `excluir.php`, `abrir_transacao.php` e `fechar_transacao.php` e nada mais além do que eles.
 
-# Tem correção automática?
 
-Não. Pelas seguintes razões:
-
-* Fazer correção automática disso tudo é bem difícil e o professor iria levar um tempão para criar os scripts para fazer isso.
-* Poucas coisas no mundo real de desenvolvimento têm correção automática e vocês tem que estar preparados para isso.
-* Para o professor desenvolver a correção automática seria tão complicado que corrigir um por um manualmente acaba sendo mais fácil e mais rápido.
-* JavaScript não tem acesso direto ao banco de dados, e embora isso não impossibilite a correção automática, deixa ela bem mais complicada.
-* Não consegui pensar em uma forma de fazer isso sem que a resposta para todos os problemas do enunciado estivesse de alguma forma presente dentro do teste.
-* Eu até tentei fazer. Depois de umas 2 horas cheguei a conclusão de que não há forma viável de fazer isso.
-* O ADO 1 que era algo muito mais simples do que isso já tinha testes supercomplicados. Imagine o que seria o teste deste aqui.
