@@ -17,4 +17,4 @@ Há ainda as seguintes restrições a serem modeladas com `CHECK`:
 
 * Os campos `edicao`, `paginas`, `largura_mm` e `altura_mm` devem ser números maiores que zero.
 * O campo `ano_publicacao` deve ser maior ou igual a 1500.
-* Os campos de texto devem ser limitados em até 1000 caracteres e não podem estar em branco.
+* Os campos de texto devem ser limitados em até 200 caracteres e não podem estar em branco.

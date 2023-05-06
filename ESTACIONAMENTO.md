@@ -30,7 +30,7 @@ Campos da tabela `condutor`:
 * `chave` - `INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT`
 * `nome` - `TEXT NOT NULL`
 * `identificacao` - `TEXT UNIQUE NOT NULL` - Normalmente é o CPF. Para estrangeiros, pode ser número do passaporte, RNE, CRNM ou outro documento similar.
-* `telefone` - `TEXT UNIQUE NOT NULL`
+* `telefone` - `TEXT` - Pode ser `NULL`, uma vez que se o condutor recusar dar o número por qualquer razão, mesmo assim o deixamos estacionar seu veículo. Em geral isso seria `UNIQUE`, mas não é porque existem situações onde um mesmo número pode ser compartilhado por mais de uma pessoa (se for um número empresarial ou pertencente a um casal, por exemplo).
 
 Há ainda as seguintes restrições a serem modeladas com `CHECK`:
 
